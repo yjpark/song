@@ -9,7 +9,8 @@ pub fn Home() -> Element {
         div {
             class: class!(w_screen h_screen),
             Video {
-
+            }
+            Lyrics {
             }
         }
     }

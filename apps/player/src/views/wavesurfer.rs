@@ -2,7 +2,7 @@ use dioxus::prelude::*;
 use dioxus_daisyui::prelude::*;
 
 #[component]
-pub fn Waveform() -> Element {
+pub fn WaveSurfer() -> Element {
     let code = r#"
         let msg = await dioxus.recv();
         console.log(msg);

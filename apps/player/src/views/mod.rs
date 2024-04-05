@@ -1,7 +1,7 @@
 pub mod video;
 pub mod lyrics;
-pub mod waveform;
+pub mod wavesurfer;
 
 pub use video::Video;
 pub use lyrics::Lyrics;
-pub use waveform::Waveform;
+pub use wavesurfer::WaveSurfer;

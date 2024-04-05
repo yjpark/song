@@ -12,7 +12,7 @@ pub fn Home() -> Element {
                 class: class!(w_96),
                 Video {
                 }
-                Waveform {
+                WaveSurfer {
                 }
                 Lyrics {
                 }

@@ -19,7 +19,10 @@ pub fn Lyrics() -> Element {
         div {
             for line in lyrics {
                 div {
-                    {line}
+                    p {
+                        class: class!(text_center),
+                        {line}
+                    }
                 }
             }
         }

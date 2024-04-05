@@ -11,3 +11,6 @@ build-classes:
     cargo test --features "web build-classes"
     echo "]" >> ../../classes.rs
     mv -v ../../classes.rs .
+
+watch-classes:
+    cargo watch -w src/ -s "just build-classes && cargo build"

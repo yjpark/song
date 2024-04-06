@@ -12,29 +12,26 @@ class!(text_center)
  */
 Class :: from(vec! [String :: from(text_center)]),
 
-/* #265 bytes(3000..3014)
+/* #265 bytes(2658..2672)
 class!(w_full)
  */
 Class :: from(vec! [String :: from(w_full)]),
 
-/* #270 bytes(3059..3071)
-class!(w_64)
+/* #270 bytes(2715..2739)
+class!(w_auto h_16 mx_2)
  */
-Class :: from(vec! [String :: from(w_64)]),
+Class ::
+from(vec!
+[String :: from(w_auto), String :: from(h_16), String :: from(mx_2)]),
 
-/* #275 bytes(3281..3300)
-class!(w_full h_64)
- */
-Class :: from(vec! [String :: from(w_full), String :: from(h_64)]),
-
-/* #290 bytes(3571..3601)
+/* #285 bytes(3010..3040)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #295 bytes(3644..3658)
+/* #290 bytes(3083..3097)
 class!(w_full)
  */
 Class :: from(vec! [String :: from(w_full)]),

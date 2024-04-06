@@ -1218,6 +1218,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "instant"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c"
+dependencies = [
+ "cfg-if",
+]
+
+[[package]]
 name = "internment"
 version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1345,6 +1354,64 @@ name = "memchr"
 version = "2.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
+
+[[package]]
+name = "notation_core"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a1078ab821de0e3a321e219498f3e41f9a5b39a62fd509ef7dcaaf0ae430827f"
+dependencies = [
+ "fehler",
+ "serde",
+]
+
+[[package]]
+name = "notation_fretted"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "54fd4470fcb7b179b7d95a389760a3b614743bb8d24336c79a81852abd9e59fb"
+dependencies = [
+ "notation_core",
+ "serde",
+ "serde_arrays",
+]
+
+[[package]]
+name = "notation_guitar"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2591d605e78512618a8c5ce1aa44b2548fb5f5d93d7886729d77257390e9057c"
+dependencies = [
+ "notation_core",
+ "notation_fretted",
+ "serde",
+]
+
+[[package]]
+name = "notation_model"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c5845a9e49e6510f69088793138d14f5b20ca0ec154b8b580cbcf89a7156e9c8"
+dependencies = [
+ "fehler",
+ "instant",
+ "notation_proto",
+ "thiserror",
+ "uuid",
+]
+
+[[package]]
+name = "notation_proto"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4cff25fff67a91bb17270e4df5b819bbeff368b4e3f2bed6c03b8aea3b5e26bd"
+dependencies = [
+ "notation_core",
+ "notation_fretted",
+ "notation_guitar",
+ "serde",
+ "uuid",
+]
 
 [[package]]
 name = "nu-ansi-term"
@@ -1593,6 +1660,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "serde_arrays"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38636132857f68ec3d5f3eb121166d2af33cb55174c4d5ff645db6165cbef0fd"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "serde_derive"
 version = "1.0.197"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1773,6 +1849,7 @@ version = "0.1.0"
 dependencies = [
  "dioxus",
  "dioxus-daisyui",
+ "notation_model",
 ]
 
 [[package]]
@@ -1963,6 +2040,16 @@ name = "urlencoding"
 version = "2.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "daf8dba3b7eb870caf1ddeed7bc9d2a049f3cfdfae7cb521b087cc33ae4c49da"
+
+[[package]]
+name = "uuid"
+version = "1.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a183cf7feeba97b4dd1c0d46788634f6221d87fa961b305bed08c851829efcc0"
+dependencies = [
+ "getrandom",
+ "serde",
+]
 
 [[package]]
 name = "valuable"

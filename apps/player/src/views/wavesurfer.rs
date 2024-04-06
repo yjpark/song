@@ -12,15 +12,6 @@ pub fn WaveSurfer() -> Element {
             progressColor: "rgb(100, 0, 100)",
             media: document.getElementById("video-player"),
         });
-        // Update the zoom level on slider change
-        wavesurfer.once('decode', () => {
-            const slider = document.getElementById("video-zoom")
-
-            slider.addEventListener('input', (e) => {
-                const minPxPerSec = e.target.valueAsNumber
-                wavesurfer.zoom(minPxPerSec)
-            })
-        })
     "#;
     let mut eval = eval(code);
     let future = use_resource(move || {
@@ -32,16 +23,8 @@ pub fn WaveSurfer() -> Element {
     rsx! {
         div {
             class: class!(w_full),
-            input {
-                class: class!(w_64),
-                id: "video-zoom",
-                r#type: "range",
-                min: "10",
-                max: "1000",
-                value: "100",
-            }
             div {
-                class: class!(w_full h_64),
+                class: class!(w_auto h_16 mx_2),
                 id: "video-waveform",
             }
         }

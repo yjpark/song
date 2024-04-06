@@ -7,36 +7,36 @@ Class ::
 from(vec!
 [String :: from(card), String :: from(card_body), String :: from("video-js")]),
 
-/* #249 bytes(1789..1808)
+/* #249 bytes(1833..1852)
 class!(text_center)
  */
 Class :: from(vec! [String :: from(text_center)]),
 
-/* #265 bytes(2956..2968)
-class!(card)
+/* #265 bytes(3000..3014)
+class!(w_full)
  */
-Class :: from(vec! [String :: from(card)]),
+Class :: from(vec! [String :: from(w_full)]),
 
-/* #270 bytes(3013..3031)
-class!(card_title)
+/* #270 bytes(3059..3071)
+class!(w_64)
  */
-Class :: from(vec! [String :: from(card_title)]),
+Class :: from(vec! [String :: from(w_64)]),
 
-/* #275 bytes(3241..3258)
-class!(card_body)
+/* #275 bytes(3281..3300)
+class!(w_full h_64)
  */
-Class :: from(vec! [String :: from(card_body)]),
+Class :: from(vec! [String :: from(w_full), String :: from(h_64)]),
 
-/* #290 bytes(3529..3559)
+/* #290 bytes(3571..3601)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #295 bytes(3602..3614)
-class!(w_96)
+/* #295 bytes(3644..3658)
+class!(w_full)
  */
-Class :: from(vec! [String :: from(w_96)]),
+Class :: from(vec! [String :: from(w_full)]),
 
 ]

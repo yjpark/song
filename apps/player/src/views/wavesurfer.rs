@@ -31,9 +31,9 @@ pub fn WaveSurfer() -> Element {
     });
     rsx! {
         div {
-            class: class!(card),
+            class: class!(w_full),
             input {
-                class: class!(card_title),
+                class: class!(w_64),
                 id: "video-zoom",
                 r#type: "range",
                 min: "10",
@@ -41,7 +41,7 @@ pub fn WaveSurfer() -> Element {
                 value: "100",
             }
             div {
-                class: class!(card_body),
+                class: class!(w_full h_64),
                 id: "video-waveform",
             }
         }

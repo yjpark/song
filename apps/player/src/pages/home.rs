@@ -9,7 +9,7 @@ pub fn Home() -> Element {
         div {
             class: class!(w_screen h_screen flex),
             div {
-                class: class!(w_96),
+                class: class!(w_full),
                 Video {
                 }
                 WaveSurfer {

@@ -31,6 +31,7 @@ pub fn Video() -> Element {
             id: "video-player",
             controls: true,
             src: "/video/mr.lonely.webm",
+            // src: "/weather/weather.mkv",
             // src: "http://vjs.zencdn.net/v/oceans.mp4",
         }
     }

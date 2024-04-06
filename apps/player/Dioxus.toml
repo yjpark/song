@@ -24,7 +24,7 @@ title = "song-player"
 reload_html = true
 
 # which files or dirs will be watcher monitoring
-watch_path = ["src", "assets"]
+watch_path = ["classes.rs", "assets"]
 
 # include `assets` in web platform
 [web.resource]

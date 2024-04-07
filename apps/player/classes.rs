@@ -52,29 +52,29 @@ Class ::
 from(vec!
 [String :: from(flex), String :: from(flex_wrap), String :: from(m_8)]),
 
-/* #355 bytes(5058..5070)
-class!(w_96)
+/* #364 bytes(5226..5238)
+class!(w_64)
  */
-Class :: from(vec! [String :: from(w_96)]),
+Class :: from(vec! [String :: from(w_64)]),
 
-/* #370 bytes(5339..5369)
+/* #379 bytes(5536..5566)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #375 bytes(5412..5426)
+/* #384 bytes(5609..5623)
 class!(w_full)
  */
 Class :: from(vec! [String :: from(w_full)]),
 
-/* #390 bytes(5983..6008)
+/* #399 bytes(6180..6205)
 class!(w_screen h_screen)
  */
 Class :: from(vec! [String :: from(w_screen), String :: from(h_screen)]),
 
-/* #402 bytes(6229..6259)
+/* #411 bytes(6426..6456)
 class!(w_screen h_screen flex)
  */
 Class ::

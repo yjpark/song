@@ -12,9 +12,10 @@ pub fn Section() -> Element {
     rsx! {
         div {
             class: class!(flex flex_wrap m_8),
-            for bar in bars {
+            for (index, bar) in bars.iter().enumerate() {
                 if bar.props.section_index == 1 || true {
                     Bar {
+                        index, 
                     }
                 }
             }

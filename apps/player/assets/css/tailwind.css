@@ -1175,8 +1175,8 @@ html {
   height: 100vh;
 }
 
-.w-96 {
-  width: 24rem;
+.w-64 {
+  width: 16rem;
 }
 
 .w-auto {

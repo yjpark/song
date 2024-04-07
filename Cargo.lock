@@ -529,6 +529,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2ea539174bb236e0e7dc9c12b19b88eae3cb574dedbd0252a2d43ea7e6de13e2"
 
 [[package]]
+name = "dioxus-free-icons"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "82d16dd03f51f9023e088fbf7f87820e3eba012d221c380bdb6cb5a11a43f99f"
+dependencies = [
+ "dioxus",
+]
+
+[[package]]
 name = "dioxus-fullstack"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2327,6 +2336,7 @@ dependencies = [
  "console_error_panic_hook",
  "dioxus",
  "dioxus-daisyui",
+ "dioxus-free-icons",
  "dioxus-logger",
  "futures",
  "getrandom",

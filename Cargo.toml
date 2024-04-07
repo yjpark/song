@@ -33,6 +33,9 @@ futures = "0.3.30"
 ron = "0.8"
 snafu = "0.8.2"
 
+dioxus-free-icons = { version = "0.8", features = ["feather"] }
+
+# dx serve produce an error without this.
 getrandom = { version = "0.2", features=["wasm-bindgen", "js"] }
 
 # Debug

@@ -8,10 +8,16 @@ use song_proto::prelude::*;
 pub fn Sections() -> Element {
     let song = consume_context::<Signal<Arc<Tab>>>();
     rsx! {
-        div {
+        ul {
+            class: class!(timeline),
             for section in song().form.sections.clone() {
-                div {
-                    "{section}",
+                li {
+                    div {
+                        "{section.id}",
+                    }
+                    div {
+                        "{section.kind}",
+                    }
                 }
             }
         }

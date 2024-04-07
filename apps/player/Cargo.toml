@@ -39,6 +39,8 @@ reqwest = { workspace = true }
 async-recursion = { workspace = true }
 futures = { workspace = true }
 
+dioxus-free-icons = { workspace = true }
+
 getrandom = { workspace = true }
 
 # Debug

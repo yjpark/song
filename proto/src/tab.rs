@@ -1,8 +1,22 @@
-pub use notation_model::prelude::*;
+use std::sync::Arc;
+use snafu::prelude::*;
 
-pub type LoadTabError = ron::error::SpannedError;
-pub type LoadTabResult = anyhow::Result<ProtoTab, LoadTabError>;
+use notation_model::prelude::*;
 
-pub fn load_tab(bytes: &Vec<u8>) -> LoadTabResult {
-    ron::de::from_bytes::<ProtoTab>(bytes)
+#[derive(Debug, Snafu)]
+pub enum LoadTabError {
+    #[snafu(display("Unable to decode tab"))]
+    DecodeRon { source: ron::error::SpannedError },
+    #[snafu(display("Unable to parse tab"))]
+    ParseTab { source: ParseError },
+}
+
+pub type LoadTabResult = Result<Arc<Tab>, LoadTabError>;
+
+pub fn load_tab(bytes: &[u8]) -> LoadTabResult {
+    let proto_tab = ron::de::from_bytes::<ProtoTab>(bytes)
+        .context(DecodeRonSnafu {})?;
+    let tab = Tab::try_parse_arc(proto_tab, false, None)
+        .context(ParseTabSnafu {})?;
+    Ok(tab)
 }

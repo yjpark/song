@@ -31,7 +31,9 @@ reqwest = "0.12.3"
 async-recursion = "1.1.0"
 futures = "0.3.30"
 ron = "0.8"
-anyhow = "1.0"
+snafu = "0.8.2"
+
+getrandom = { version = "0.2", features=["wasm-bindgen", "js"] }
 
 # Debug
 log = "0.4.19"

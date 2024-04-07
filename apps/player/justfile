@@ -13,4 +13,4 @@ build-classes:
     mv -v ../../classes.rs .
 
 watch-classes:
-    cargo watch -w src/ -s "just build-classes && cargo build"
+    cargo watch -w src/ -s "clear-buffer ; just build-classes && cargo build"

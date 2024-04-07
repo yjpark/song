@@ -1,7 +1,7 @@
 [application]
 
 # App (Project) Name
-name = "song-player"
+name = "song_player"
 
 # Dioxus App Default Platform
 # desktop, web
@@ -16,7 +16,7 @@ asset_dir = "assets"
 [web.app]
 
 # HTML title tag content
-title = "song-player"
+title = "SONG"
 
 [web.watcher]
 
@@ -24,7 +24,7 @@ title = "song-player"
 reload_html = true
 
 # which files or dirs will be watcher monitoring
-watch_path = ["classes.rs", "assets"]
+watch_path = ["src", "assets"]
 
 # include `assets` in web platform
 [web.resource]

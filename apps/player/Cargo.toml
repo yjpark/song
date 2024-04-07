@@ -39,6 +39,8 @@ reqwest = { workspace = true }
 async-recursion = { workspace = true }
 futures = { workspace = true }
 
+getrandom = { workspace = true }
+
 # Debug
 log = "0.4.19"
 dioxus-logger = "0.4.1"

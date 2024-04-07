@@ -18,4 +18,4 @@ dioxus-daisyui = { workspace = true }
 
 notation_model = { workspace = true }
 ron = { workspace = true }
-anyhow = { workspace = true }
+snafu = { workspace = true }

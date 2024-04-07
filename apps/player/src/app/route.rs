@@ -7,4 +7,6 @@ use crate::pages::*;
 pub enum Route {
     #[route("/")]
     Home {},
+    #[route("/tab")]
+    Tab {},
 }

@@ -27,6 +27,12 @@ fehler = "1.0"
 lazy_static = "1.4.0"
 simsearch = "0.2.4"
 
+reqwest = "0.12.3"
+async-recursion = "1.1.0"
+futures = "0.3.30"
+ron = "0.8"
+anyhow = "1.0"
+
 # Debug
 log = "0.4.19"
 dioxus-logger = "0.4.1"

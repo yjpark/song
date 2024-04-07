@@ -17,3 +17,5 @@ dioxus = { workspace = true }
 dioxus-daisyui = { workspace = true }
 
 notation_model = { workspace = true }
+ron = { workspace = true }
+anyhow = { workspace = true }

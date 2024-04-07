@@ -24,31 +24,47 @@ Class ::
 from(vec!
 [String :: from(w_auto), String :: from(h_16), String :: from(mx_2)]),
 
-/* #293 bytes(3105..3121)
+/* #293 bytes(3259..3281)
+class!(timeline_start)
+ */
+Class :: from(vec! [String :: from(timeline_start)]),
+
+/* #298 bytes(3402..3425)
+class!(timeline_middle)
+ */
+Class :: from(vec! [String :: from(timeline_middle)]),
+
+/* #303 bytes(3506..3539)
+class!(timeline_end timeline_box)
+ */
+Class ::
+from(vec! [String :: from(timeline_end), String :: from(timeline_box)]),
+
+/* #308 bytes(3105..3121)
 class!(timeline)
  */
 Class :: from(vec! [String :: from(timeline)]),
 
-/* #308 bytes(3659..3689)
+/* #323 bytes(3884..3914)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #313 bytes(3732..3746)
+/* #328 bytes(3957..3971)
 class!(w_full)
  */
 Class :: from(vec! [String :: from(w_full)]),
 
-/* #328 bytes(4303..4333)
+/* #343 bytes(4528..4558)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #340 bytes(4502..4532)
+/* #355 bytes(4727..4757)
 class!(w_screen h_screen flex)
  */
 Class ::

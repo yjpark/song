@@ -13,9 +13,14 @@ pub fn Sections() -> Element {
             for section in song().form.sections.clone() {
                 li {
                     div {
+                        class: class!(timeline_start),
                         "{section.id}",
                     }
                     div {
+                        class: class!(timeline_middle),
+                    }
+                    div {
+                        class: class!(timeline_end timeline_box),
                         "{section.kind}",
                     }
                 }

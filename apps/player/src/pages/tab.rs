@@ -14,9 +14,11 @@ pub fn Tab() -> Element {
             use_context_provider(|| Signal::new(song.clone()));
             rsx! {
                 div {
-                    class: class!(w_screen h_screen flex),
+                    class: class!(w_screen h_screen),
                     Sections {
                     },
+                    Section {
+                    }
                 }
             }
         },

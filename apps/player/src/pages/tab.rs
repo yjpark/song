@@ -17,7 +17,7 @@ pub fn Tab() -> Element {
                     class: class!(w_screen h_screen),
                     Sections {
                     },
-                    Section {
+                    Bars {
                     }
                 }
             }

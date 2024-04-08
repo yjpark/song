@@ -11,7 +11,7 @@ use crate::views::entries::*;
 pub fn ChordLane(lane: ReadOnlySignal<Option<Arc<BarLane>>>) -> Element {
     let Some(lane) = lane() else {
         return None;
-    }
+    };
     rsx! {
         for entry in lane.entries {
 

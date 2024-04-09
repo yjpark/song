@@ -5,12 +5,10 @@ release:
     dx build --release
 
 npm-install:
-    cd static/css && npm install
+    cd static/css && just npm-install
 
 build-classes:
-    cargo test --features "web build-classes"
-    echo "]" >> ../../classes.rs
-    mv -v ../../classes.rs .
+    cd css && just build-classes
 
 watch-classes:
-    cargo watch -w src/ -s "clear-buffer ; just build-classes && cargo build"
+    cargo watch -w src/ -s "clear-buffer && cargo build && just build-classes"

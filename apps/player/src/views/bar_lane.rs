@@ -8,17 +8,15 @@ use song_proto::prelude::*;
 use crate::views::entries::*;
 
 #[component]
-pub fn ChordLane(lane: ReadOnlySignal<Option<Arc<BarLane>>>) -> Element {
+pub fn BarLane(lane: ReadOnlySignal<Option<Arc<BarLane>>>) -> Element {
     let Some(lane) = lane() else {
         return None;
     };
     rsx! {
-        for entry in lane.entries {
-
-        }
-        div {
-            class: class!(h_16),
-            "chord"
+        for entry in lane.entries.clone() {
+            Entry {
+                entry,
+            }
         }
     }
 }

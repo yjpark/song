@@ -5,11 +5,13 @@ use dioxus_daisyui::prelude::*;
 
 use song_proto::prelude::*;
 
+use crate::views::entries::*;
+
 #[component]
-pub fn ChordEntry(entry: ReadOnlySignal<Arc<LaneEntry>>, chord: ReadOnlySignal<Chord>) -> Element {
+pub fn WordEntry(entry: ReadOnlySignal<Arc<LaneEntry>>, word: ReadOnlySignal<LyricWord>) -> Element {
     rsx! {
         div {
-            "{chord}"
+            "word",
         }
     }
 }

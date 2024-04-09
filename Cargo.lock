@@ -2346,6 +2346,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "song_player_css"
+version = "0.1.0"
+dependencies = [
+ "dioxus-daisyui",
+ "song_player",
+]
+
+[[package]]
 name = "song_proto"
 version = "0.1.0"
 dependencies = [

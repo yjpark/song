@@ -1,0 +1,9 @@
+build-classes:
+    echo "vec![]" > classes.rs
+    cargo test --features "build-classes"
+    echo "]" >> ../../../classes.rs
+    mv -v ../../../classes.rs .
+
+npm-install:
+    npm install
+

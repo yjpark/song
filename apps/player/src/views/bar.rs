@@ -3,24 +3,18 @@ use dioxus::prelude::*;
 use dioxus_daisyui::prelude::*;
 
 use song_proto::prelude::*;
-use crate::views::lanes::*;
+use crate::views::BarLane;
 
 #[component]
 pub fn Bar(bar: ReadOnlySignal<Arc<TabBar>>) -> Element {
     rsx! {
         div {
-            class: class!(flex flex_col),
-            ChordLane {
+            class: class!(flex flex_col w_64),
+            BarLane {
                 lane: bar().get_lane_of_kind(LaneKind::Chord, None),
             }
-            LyricsLane {
-
-            }
-            div {
-                //{bar.props.bar_index.to_string()}
-                class: class!(w_64),
-                key: "{index}",
-                "{bar}"
+            BarLane {
+                lane: bar().get_lane_of_kind(LaneKind::Lyrics, None),
             }
         }
     }

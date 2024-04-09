@@ -10,8 +10,8 @@ use crate::views::entries::*;
 #[component]
 pub fn WordEntry(entry: ReadOnlySignal<Arc<LaneEntry>>, word: ReadOnlySignal<LyricWord>) -> Element {
     rsx! {
-        div {
-            "word",
+        span {
+            "{word}",
         }
     }
 }

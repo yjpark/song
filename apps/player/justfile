@@ -11,4 +11,4 @@ build-classes:
     cd css && just build-classes
 
 watch-classes:
-    cargo watch -w src/ -s "clear-buffer && cargo build && just build-classes"
+    cargo watch -w src/ -s "clear-buffer && cargo rustc --lib -- -Awarnings && just build-classes"

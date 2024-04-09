@@ -1,7 +1,5 @@
-build-classes:
-    cargo test --features "build-classes"
-    echo "]" >> ../../../classes.rs
-    mv -v ../../../classes.rs .
+build:
+    cargo build
 
 clear-classes:
     echo "vec![]" > classes.rs

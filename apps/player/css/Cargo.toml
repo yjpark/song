@@ -13,13 +13,7 @@ authors = { workspace = true }
 
 [features]
 
-build-classes = [
-    "dioxus-daisyui/build-classes",
-]
-
 [build-dependencies]
 dioxus-daisyui = { workspace = true }
 
 [dependencies]
-dioxus-daisyui = { workspace = true }
-song_player = { workspace = true }

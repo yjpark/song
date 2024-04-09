@@ -5,10 +5,13 @@ release:
     dx build --release
 
 npm-install:
-    cd static/css && just npm-install
+    cd css && just npm-install
 
 build-classes:
-    cd css && just build-classes
+    cargo test --features "build-classes"
+    echo "]" >> ../../classes.rs
+    mv -v ../../classes.rs css/
+    cd css && cargo build
 
 watch-classes:
-    cargo watch -w src/ -s "clear-buffer && cargo rustc --lib -- -Awarnings && cargo build && just build-classes"
+    cargo watch -w src/ -s "clear-buffer && cargo rustc --lib -- -Awarnings && just build-classes"

@@ -9,7 +9,7 @@ use crate::views::BarLane;
 pub fn Bar(bar: ReadOnlySignal<Arc<TabBar>>) -> Element {
     rsx! {
         div {
-            class: class!(flex flex_col w_64),
+            class: class!(flex flex_col w_64 my_16),
             BarLane {
                 lane: bar().get_lane_of_kind(LaneKind::Chord, None),
             }

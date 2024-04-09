@@ -13,9 +13,12 @@ pub fn BarLane(lane: ReadOnlySignal<Option<Arc<BarLane>>>) -> Element {
         return None;
     };
     rsx! {
-        for entry in lane.entries.clone() {
-            Entry {
-                entry,
+        div {
+            class: class!(flex flex_row),
+            for entry in lane.entries.clone() {
+                Entry {
+                    entry,
+                }
             }
         }
     }

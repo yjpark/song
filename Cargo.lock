@@ -424,9 +424,9 @@ dependencies = [
 
 [[package]]
 name = "dioxus-class"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ad479bd636ad586706153bb0851358331eca293427a2b44379f0080310c0b4d"
+checksum = "c413b576eb6fd4e4c5c4b71c6332965dcab3276bfef92c556caf44613bfc68b6"
 dependencies = [
  "dioxus",
  "dioxus-class-internal",
@@ -436,18 +436,18 @@ dependencies = [
 
 [[package]]
 name = "dioxus-class-internal"
-version = "0.5.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "19d096030ae24fa109a7ed8b69e7e8d9bd0c0ad52212a1656595e8c6cdf00e1d"
+checksum = "fb2f4a493fe619ce8fa208a09f903f778aaa77a25568435b66226c8d1bf4e7bb"
 dependencies = [
  "dioxus",
 ]
 
 [[package]]
 name = "dioxus-class-macro"
-version = "0.5.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34a11afdce207e88e327b98689e7739b2b5b67c76a2ab882f731b54c9c244aae"
+checksum = "c768a6987921ec4363332a134782ff78bb0aecb4178fa56b20d519653e18ca08"
 dependencies = [
  "dioxus-class-internal",
  "fehler",
@@ -513,9 +513,9 @@ dependencies = [
 
 [[package]]
 name = "dioxus-daisyui"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0ba5c7761c671604f868b465b0a65cf9cd082f26139267a0cc7556f2233c544"
+checksum = "7e76c33baee03a1136ae09e617f044becd29589d839838f68973ca9325dc0be2"
 dependencies = [
  "dioxus",
  "dioxus-tailwindcss",
@@ -727,9 +727,9 @@ dependencies = [
 
 [[package]]
 name = "dioxus-tailwindcss"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b8fbe04bb2159f230cd7ac492a03f7216cdba4491e2591050c3694f6eae2a72"
+checksum = "8bce560268809f47f18e6415a2811e5c4d8a8914321df24fb2e38b98ac24fe7d"
 dependencies = [
  "dioxus",
  "dioxus-class",

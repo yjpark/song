@@ -19,7 +19,7 @@ song_proto = { path = "proto" }
 song_player = { path = "apps/player" }
 
 dioxus = "0.5.0"
-dioxus-daisyui = "0.6.0"
+dioxus-daisyui = "0.7.0"
 
 notation_model = "0.6.0"
 

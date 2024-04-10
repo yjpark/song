@@ -1180,8 +1180,8 @@ html {
   height: 100vh;
 }
 
-.w-64 {
-  width: 16rem;
+.w-96 {
+  width: 24rem;
 }
 
 .w-auto {
@@ -1194,6 +1194,10 @@ html {
 
 .w-screen {
   width: 100vw;
+}
+
+.basis-full {
+  flex-basis: 100%;
 }
 
 .flex-row {
@@ -1210,6 +1214,20 @@ html {
 
 .justify-center {
   justify-content: center;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .text-center {

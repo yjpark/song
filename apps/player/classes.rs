@@ -3080,3 +3080,83 @@ basis_full
  */
 Class :: from (vec ! [String :: from (basis_full)]),
 
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282545) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282550) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282559) }
+flex flex_col w_96 my_2
+ */
+Class :: from (vec ! [String :: from (flex) , String :: from (flex_col) , String :: from (w_96) , String :: from (my_2)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282562) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282577) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282582) }
+flex flex_col w_96 my_2
+ */
+Class :: from (vec ! [String :: from (flex) , String :: from (flex_col) , String :: from (w_96) , String :: from (my_2)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282587) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282592) }
+flex flex_col w_96 my_2
+ */
+Class :: from (vec ! [String :: from (flex) , String :: from (flex_col) , String :: from (w_96) , String :: from (my_2)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282605) }
+basis_full
+ */
+Class :: from (vec ! [String :: from (basis_full)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282610) }
+flex flex_col w_96 my_2
+ */
+Class :: from (vec ! [String :: from (flex) , String :: from (flex_col) , String :: from (w_96) , String :: from (my_2)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282587) }
+basis_full h
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282605) }
+basis_full h
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282587) }
+basis_full h_
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h_)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282605) }
+basis_full h_
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h_)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282587) }
+basis_full h_4
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h_4)]),
+
+/* SpanData { range: 435..440, anchor: SpanAnchor(FileId(6820), 7), ctx: SyntaxContextId(282605) }
+basis_full h_4
+ */
+Class :: from (vec ! [String :: from (basis_full) , String :: from (h_4)]),
+

@@ -1,8 +1,8 @@
 [workspace.package]
 edition = "2021"
 license = "MIT"
-homepage = "https://github.com/edger-dev/dioxus-class"
-repository = "https://github.com/edger-dev/dioxus-class"
+homepage = "https://github.com/notatition_fun/song"
+repository = "https://github.com/notatition_fun/song"
 authors = ["YJ Park <yjpark@gmail.com>"]
 
 [workspace]

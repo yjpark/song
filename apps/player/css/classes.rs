@@ -52,10 +52,10 @@ Class ::
 from(vec!
 [String :: from(flex), String :: from(flex_wrap), String :: from(m_8)]),
 
-/* #368 bytes(5402..5420)
-class!(basis_full)
+/* #368 bytes(5402..5424)
+class!(basis_full h_4)
  */
-Class :: from(vec! [String :: from(basis_full)]),
+Class :: from(vec! [String :: from(basis_full), String :: from(h_4)]),
 
 /* #373 bytes(5040..5071)
 class!(flex flex_col w_96 my_2)
@@ -65,12 +65,12 @@ from(vec!
 [String :: from(flex), String :: from(flex_col), String :: from(w_96), String
 :: from(my_2)]),
 
-/* #404 bytes(5785..5806)
+/* #404 bytes(5789..5810)
 class!(flex flex_row)
  */
 Class :: from(vec! [String :: from(flex), String :: from(flex_row)]),
 
-/* #427 bytes(7097..7136)
+/* #427 bytes(7101..7140)
 class!(bg_gray_400 border border_white)
  */
 Class ::
@@ -78,24 +78,24 @@ from(vec!
 [String :: from(bg_gray_400), String :: from(border), String ::
 from(border_white)]),
 
-/* #505 bytes(7876..7906)
+/* #505 bytes(7880..7910)
 class!(w_screen h_screen flex)
  */
 Class ::
 from(vec!
 [String :: from(w_screen), String :: from(h_screen), String :: from(flex)]),
 
-/* #510 bytes(7949..7963)
+/* #510 bytes(7953..7967)
 class!(w_full)
  */
 Class :: from(vec! [String :: from(w_full)]),
 
-/* #525 bytes(8520..8545)
+/* #525 bytes(8524..8549)
 class!(w_screen h_screen)
  */
 Class :: from(vec! [String :: from(w_screen), String :: from(h_screen)]),
 
-/* #537 bytes(8763..8793)
+/* #537 bytes(8767..8797)
 class!(w_screen h_screen flex)
  */
 Class ::

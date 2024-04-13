@@ -8,6 +8,6 @@
   },
   "author": "",
   "dependencies": {
-    "daisyui": "^2.50.2"
+    "daisyui": "^4.9.0"
   }
 }

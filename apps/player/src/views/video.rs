@@ -6,6 +6,7 @@ pub fn Video() -> Element {
     let code = r#"
         let msg = await dioxus.recv();
         console.log(msg);
+        /*
         var player = videojs("video-player", {
             "techOrder": ["youtube"],
             "sources": [
@@ -15,6 +16,7 @@ pub fn Video() -> Element {
                 }
             ]
         });
+         */
     "#;
     let mut eval = eval(code);
     let future = use_resource(move || {
@@ -28,6 +30,9 @@ pub fn Video() -> Element {
             class: class!(card card_body "video-js"),
             id: "video-player",
             controls: true,
+            src: "/video/mr.lonely.webm",
+            // src: "/weather/weather.mkv",
+            // src: "http://vjs.zencdn.net/v/oceans.mp4",
         }
     }
 }

@@ -7,9 +7,15 @@ use crate::views::*;
 pub fn Home() -> Element {
     rsx! {
         div {
-            class: class!(w_screen h_screen),
-            Video {
-
+            class: class!(w_screen h_screen flex),
+            div {
+                class: class!(w_full),
+                WaveSurfer {
+                }
+                Video {
+                }
+                Lyrics {
+                }
             }
         }
     }

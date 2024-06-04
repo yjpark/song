@@ -3,9 +3,52 @@ title: Example Guide
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+## Sample Song
 
-## Further reading
+### a
+```chords
+| G Bm | C Cm |
+```
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+### b.1
+```chords
+| G Bm | A/C# D |
+```
+
+### b.2
+```chords
+| G Bm | Am D |
+```
+
+### verse
+```links
+<a> <b.1> <a> <b.2>
+```
+
+### verse.lyrics
+```lyrics
+热情 | 就 算 - 熄灭 了 - - 分手这 | 一晚 - 也 重要 - - -
+甜言 | 蜜 语 - 谎话 嬉 笑 - 多给我 | 一点 - [x] 缺 少 - -
+话题 | 尽 了 - 也不 紧 要 - 吻我至 | 凄冷 - 的 深 宵 - -
+繁华 | 闹 市 - 灯光 普 照 - 然而 | 共你 _已 再 没破 - 晓 - - - |
+```
+
+### verse.1.lyrics
+```lyrics
+<verse.1.lyrics> {
+    x = "不要"
+}
+```
+
+### verse.2.lyrics
+```links
+<verse.1.lyrics> {
+    x = "切勿"
+}
+```
+
+### song
+```links
+<verse> <chorus> <verse> <chorus> 
+```
+

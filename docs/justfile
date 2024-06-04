@@ -1,5 +1,5 @@
 dev:
-    bunx --bun astro dev --host --port 4322
+    bunx --bun astro dev --host --port 4323
 
 check:
     bunx --bun astro check

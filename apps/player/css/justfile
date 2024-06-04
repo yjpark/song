@@ -1,9 +1,0 @@
-build:
-    cargo build
-
-clear-classes:
-    echo "vec![]" > classes.rs
-
-npm-install:
-    npm install
-
